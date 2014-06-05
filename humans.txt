@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Front-End Developer: Matt McFadyen
+  Site: http://mmcfadyen.ca
+  Twitter: @mattmcfad
+  Location: Toronto
+
+/* THANKS */
+  for the memories Wordpress
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: WordPress
+ 

@@ -3,8 +3,7 @@
 
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
 				</p>
 				<!-- /copyright -->
 
@@ -15,6 +14,9 @@
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 		<!-- analytics -->
 		<script>

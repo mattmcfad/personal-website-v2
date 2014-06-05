@@ -12,6 +12,10 @@
 */
 
 /*------------------------------------*\
+    Global Variables
+\*------------------------------------*/
+
+/*------------------------------------*\
     MAIN
 \*------------------------------------*/
 
@@ -28,6 +32,11 @@
   text-rendering: optimizeLegibility;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* html element 62.5% font-size for REM use */
 
 html {
@@ -37,6 +46,7 @@ html {
 body {
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #444;
+  background-color: peachpuff;
 }
 
 /* clear */
@@ -91,16 +101,42 @@ input:focus {
 
 .wrapper {
   max-width: 1280px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
 
 /* header */
 
+.header {
+  height: 320px;
+  width: 100%;
+  background: salmon;
+}
+
 /* logo */
 
 /* nav */
+
+.nav ul {
+  width: 100%;
+  background-color: red;
+  height: 50px;
+  padding: 3px 0;
+}
+
+.nav ul li {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 32px;
+}
+
+.nav ul li a {
+  color: white;
+}
 
 /* sidebar */
 
@@ -109,6 +145,54 @@ input:focus {
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
+
+/* * * * * * * * * * * * * * * * * * *\
+	Homepage ( page-home.php )
+\* * * * * * * * * * * * * * * * * * */
+
+.homesplash,
+.about,
+.featured,
+.contact {
+  min-height: 500px;
+}
+
+.homesplash {
+  background: pink;
+}
+
+.homesplash h1 {
+  margin: 0;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  border-top: 0;
+}
+
+.about {
+  background: orchid;
+}
+
+.featured {
+  background: maroon;
+}
+
+.contact {
+  background: mediumslateblue;
+}
+
+/* * * * * * * * * * * * * * * * * * *\
+	Portfolio
+\* * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * *\
+	Blog
+\* * * * * * * * * * * * * * * * * * */
 
 /*------------------------------------*\
     IMAGES
