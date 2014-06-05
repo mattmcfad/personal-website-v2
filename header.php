@@ -40,9 +40,11 @@
 			 ?>
 
 			<!-- nav -->
-			<nav class="nav" role="navigation">
-				<?php html5blank_nav(); ?>
-			</nav>
+			<div class="navHolder">
+				<nav class="nav" role="navigation">
+					<?php html5blank_nav(); ?>
+				</nav>
+			</div>
 			<!-- /nav -->
 
 			<!-- /header -->
