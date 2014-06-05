@@ -165,12 +165,27 @@ input:focus {
   min-height: 500px;
 }
 
-.homesplash {
-  background: pink;
+header .homesplash {
+  background: #DC143C;
+  background-image: url("img/header-bg1.jpg");
 }
 
-.homesplash h1 {
+header .homesplash h1#header1 {
   margin: 0;
+  -webkit-transform: translateZ(10px);
+  -ms-transform: translateZ(10px);
+  transform: translateZ(10px);
+  color: white;
+}
+
+.imageHolder h1 {
+  display: inline-block;
+  width: 50%;
+  margin: 15% 40%;
+  -webkit-transform: translateZ(10px);
+  -ms-transform: translateZ(10px);
+  transform: translateZ(10px);
+  color: white;
 }
 
 .sticky {
@@ -183,15 +198,15 @@ input:focus {
 }
 
 .about {
-  background: orchid;
+  background: #9932CC;
 }
 
 .featured {
-  background: maroon;
+  background: #3CB371;
 }
 
 .contact {
-  background: mediumslateblue;
+  background: #00BFFF;
 }
 
 /* * * * * * * * * * * * * * * * * * *\

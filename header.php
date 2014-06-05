@@ -33,9 +33,10 @@
 			//homepage splash
 				if (is_front_page()) {
 					echo "<!-- header -->";
-					echo '<section class="homesplash">';
-					echo     '<h1>Hi, my name is <br> Matt McFadyen <br> I am a Front-End Web Developer</h1>';
-					echo '</section>';
+					echo '<header data-image="http://i.imgur.com/rm11oV9.jpg" class="homesplash img-holder" >';
+					echo     '<h1 id="header1">Hi, my name is <br> Matt McFadyen <br> I am a Front-End Web Developer</h1>';
+					echo '</header>';
+					echo '<script src = "https://rawgithub.com/pederan/Parallax-ImageScroll/master/jquery.imageScroll.min.js"></script>';
 				}
 			 ?>
 

@@ -15,9 +15,13 @@
 
 		<?php wp_footer(); ?>
 
-
+		<!-- jquery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
 
+		<!-- jQuery ImageScroll -->
+		<script src = "https://rawgithub.com/pederan/Parallax-ImageScroll/master/jquery.imageScroll.min.js"></script>
+		
 		<!-- analytics -->
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
